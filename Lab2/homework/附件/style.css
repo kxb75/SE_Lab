@@ -250,34 +250,51 @@ body{
     white-space: nowrap;
     cursor: pointer;
 }
-/*
+
 #hot .hot-detail{
+    height:105px;
+}
+
+#hot .hot-detail > div{
+    float:left;
     height:100px;
 }
-.hot-detail > div{
-    display: block;
-    float:left
+
+#hot .hot-info{
+    width:150px;
+}
+
+#hot .hot-info > span{
+    text-align: left;
+    height:15px;
+}
+
+#hot .hot-info > *{
+    margin-bottom:10px;
+    float:left;  
 }
 
 .hot-img{
-    height:100px;
+    background-image: url(../img/genshin.jpg);
+    background-size: 100% 100%;
+    width:100px;
+    margin-right:10px;
     border-radius: 10px;
-    border:1px solid black;
     overflow:hidden;
 }
 
-.hot-img > img{
-    height: inherit;
-}
-
 .mark{
+    color:white;
+    font-weight: bolder;
+    text-align: center;
     position: relative;
+    border-bottom-right-radius: 5px;
     width: 20px;
-    height: 20px;
+    height:25px;
+    margin-top:-5px;
     z-index:1;
     background-color: red;
 }
-*/
 /*
 #hot li:nth-child(odd){
     margin-right: 60px;
@@ -318,6 +335,7 @@ body{
 #hot li .hot-content{
     font-size: 14px;
     display: inline-block;
+    width:100px;
 }
 
 #hot li:hover .hot-content{
